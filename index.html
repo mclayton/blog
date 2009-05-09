@@ -1,0 +1,26 @@
+---
+layout: default
+title: Welcome!
+---
+<div>
+  <h2>Welcome to the Site!</h2>
+</div>
+
+<ul>
+{% for cat in site.categories %}
+  <li>{{ cat[0] }}
+    <ul>
+      {% for post in cat[1] %}
+        <li>{{ post.title }}</li>
+      {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>
+{% assign first_post = site.posts.first %}
+<div id="post">
+  <h3><a href="{{ first_post.url }}">
+    newest post: {{ first_post.title }}
+  </a></h3>
+  <a id="more" href="{{ first_post.url }}">Read More &raquo;</a>
+</div>

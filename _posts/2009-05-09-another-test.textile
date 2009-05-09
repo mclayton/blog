@@ -1,0 +1,7 @@
+---
+layout: post
+title: second test entry
+categories: secondary photos
+---
+
+h1. this is some more text

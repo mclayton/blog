@@ -1,0 +1,6 @@
+---
+layout: post
+title: Test entry
+categories: primary photos words
+---
+body text
