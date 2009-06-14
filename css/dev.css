@@ -1,0 +1,72 @@
+/** =development.css
+************************************************************
+@project    Easel
+@note       Contains basic style definitions for common elements to aid in pre-build development
+@colordef   #5ec2dd; turquoise blue (links)
+@colordef   #ff8b1b; orange
+************************************************************/
+
+/** =hnav
+************************************************************/
+.hnav a {
+  background : #5ec2dd;
+  color: #fff;
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.hnav li a.active,
+.hnav li a:hover {
+  background-color: #ff8b1b;
+}
+
+/** =vnav
+************************************************************/
+
+.vnav {
+  border-top: 1px solid #5ec2dd;
+}
+.vnav a {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #5ec2dd;
+}
+.vnav li a.active,
+.vnav li a.active:hover {
+  background-color: #5ec2dd;
+  color: #fff;
+}
+.vnav li a:hover {
+  background: none;
+  color: #ff8b1b;
+}
+
+/** =inav
+************************************************************/
+.inav li {
+  border-left: 1px solid #5ec2dd;
+}
+/** =pagination
+************************************************************/
+.pagination span,
+.pagination a,
+.pagination b {
+  float: left;
+  padding: 2px 6px;
+  border: 3px solid #5ec2dd;
+  line-height: 1.2em;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.pagination b,
+.pagination .current {
+  border-color: #ff8b1b;
+  background: #ff8b1b;
+  color: #fff;
+}
+.pagination .disabled {
+  color: #d7d7d7;
+  border-color: #d7d7d7;
+}

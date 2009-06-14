@@ -1,0 +1,20 @@
+html, body { height:100%; }
+.wrapper {
+  position: relative;
+  height: auto;
+  min-height: 100%;
+}
+* html .wrapper { height:100%; }
+
+.container { padding-bottom: 5em; }
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+}
+
+.footer p {margin: 1em 0;}

@@ -1,0 +1,126 @@
+/** =reset.css
+************************************************************
+@project  Easel
+@see      http://meyerweb.com/eric/thoughts/2008/01/15/resetting-again/
+@note     added .reset to element list and list-style: none to declaration
+************************************************************/
+.reset, .reset li, .reset dt, .reset dd, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  list-style: none;
+}
+
+/* =inline elements */
+strong              { font-weight: bold; }
+cite, em, var, dfn  { font-style: italic; }
+abbr[title]         { text-transform: lowercase; font-variant: small-caps; letter-spacing: 0.1em; cursor:help; }
+a abbr[title]       { cursor: pointer; }
+ins                 { text-decoration: none; border-bottom: 1px dotted; }
+a ins               { border: 0; }
+del                 { text-decoration: line-through; }
+sup,sub             { font-size: 80%; }
+sup                 { vertical-align: super; }
+sub                 { vertical-align: sub; }
+
+/* =quotes */
+blockquote, q { quotes: none; }
+
+/* =address */
+address { font-style: normal; }
+
+/* =images */
+img { max-width: 100%; }
+
+/* =pre */
+pre { overflow-x: auto; }
+
+/** =utility classes
+************************************************************/
+.hide,
+.js .js-hide,
+.js-show      { display: none; }
+.js .js-show  { display: block; }
+.access       { position: absolute; left: -999em; }
+
+.right        { float: right; }
+.left         { float: left; }
+.clear        { clear: both; }
+.center       { display: block; margin-left: auto; margin-right: auto; float: none; }
+
+.text-right   { text-align: right; }
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+
+.uppercase    { text-transform: uppercase; }
+.lowercase    { text-transform: lowercase; }
+.capitalize   { text-transform: capitalize; }
+.smallcaps    { font-variant: small-caps; }
+
+.no-border    { border: none; }
+.no-bullet li,
+li.no-bullet  {
+  padding: 0;
+  background: none;
+}
+
+.hnav, .hnav li,
+.vnav, .vnav li,
+.inav, .inav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-image: none;
+}
+.hnav li      { float: left; display: inline; }
+.hnav a,
+.vnav a       { display: block; }
+.inav li      { display: inline; }
+
+a.img,
+a.img img,
+a.img:hover {
+  border: none;
+  background: none;
+  text-decoration: none;
+  display: block;
+}
+
+/** =group (clearfix)
+************************************************************
+@see  http://www.positioniseverything.net/easyclearing.html
+************************************************************/
+.group:after,
+.content:after,
+.block:after,
+.hnav:after,
+.text:after,
+.select:after,
+.file:after { content: " "; display: block; font-size: 0; height: 0; clear: both; visibility: hidden; }
+
+.group,
+.content,
+.block,
+.hnav,
+.text,
+.select,
+.file { display: inline-block; }
+* html .group,
+* html .content,
+* html .mod,
+* html .hnav,
+* html .text,
+* html .select,
+* html .file  { height: 1%; }
+
+.group,
+.content,
+.block,
+.hnav,
+.text,
+.select,
+.file { display: block; }

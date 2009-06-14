@@ -2,12 +2,26 @@
 <html lang="en">
   <head>
     <title>{{ page.title }}</title>
-    <link href="/css/screen.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/css/print.css" media="print" rel="stylesheet" type="text/css" />
+    <link href="/css/grid.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="/css/reset.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="/css/forms.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="/css/extras.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="/css/admin.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="/css/print.css" media="print" rel="stylesheet" type="text/css">
+
+    <!-- examples styles -->
+    <link href="/css/my-screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection">
+    <![endif]-->
   </head>
   <body>
     <div class="container">
-      <h1><a href="/">My Site</a></h1>
+      <header>
+        <h1><a href="/">My Site</a></h1>
+      </header>
       {{ content }}
     </div>
   </body>

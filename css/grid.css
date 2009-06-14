@@ -1,0 +1,113 @@
+/** =grid
+************************************************************
+@project  Easel
+@see      http://blueprint-generator.kaizeku.com/
+@see      http://www.jdclayton.com/blueprints_compress_a_walkthrough.html
+************************************************************/
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-13, .col-14, .col-15, .col-16, .col-17, .col-18, .col-19, .col-20, .col-21, .col-22, .col-23, .col-24 { float:left; margin-right:10px; clear: none !important; }
+.col-1  { width:30px; }
+.col-2  { width:70px; }
+.col-3  { width:110px; }
+.col-4  { width:150px; }
+.col-5  { width:190px; }
+.col-6  { width:230px; }
+.col-7  { width:270px; }
+.col-8  { width:310px; }
+.col-9  { width:350px; }
+.col-10 { width:390px; }
+.col-11 { width:430px; }
+.col-12 { width:470px; }
+.col-13 { width:510px; }
+.col-14 { width:550px; }
+.col-15 { width:590px; }
+.col-16 { width:630px; }
+.col-17 { width:670px; }
+.col-18 { width:710px; }
+.col-19 { width:750px; }
+.col-20 { width:790px; }
+.col-21 { width:830px; }
+.col-22 { width:870px; }
+.col-23 { width:910px; }
+.col-24 { width:950px; margin:0; }
+
+.col-last { margin-right: 0; }
+
+.append-1  { padding-right:40px; }
+.append-2  { padding-right:80px; }
+.append-3  { padding-right:120px; }
+.append-4  { padding-right:160px; }
+.append-5  { padding-right:200px; }
+.append-6  { padding-right:240px; }
+.append-7  { padding-right:280px; }
+.append-8  { padding-right:320px; }
+.append-9  { padding-right:360px; }
+.append-10 { padding-right:400px; }
+.append-11 { padding-right:440px; }
+.append-12 { padding-right:480px; }
+.append-13 { padding-right:520px; }
+.append-14 { padding-right:560px; }
+.append-15 { padding-right:600px; }
+.append-16 { padding-right:640px; }
+.append-17 { padding-right:680px; }
+.append-18 { padding-right:720px; }
+.append-19 { padding-right:760px; }
+.append-20 { padding-right:800px; }
+.append-21 { padding-right:840px; }
+.append-22 { padding-right:880px; }
+.append-23 { padding-right:920px; }
+
+.prepend-1  { padding-left:40px; }
+.prepend-2  { padding-left:80px; }
+.prepend-3  { padding-left:120px; }
+.prepend-4  { padding-left:160px; }
+.prepend-5  { padding-left:200px; }
+.prepend-6  { padding-left:240px; }
+.prepend-7  { padding-left:280px; }
+.prepend-8  { padding-left:320px; }
+.prepend-9  { padding-left:360px; }
+.prepend-10 { padding-left:400px; }
+.prepend-11 { padding-left:440px; }
+.prepend-12 { padding-left:480px; }
+.prepend-13 { padding-left:520px; }
+.prepend-14 { padding-left:560px; }
+.prepend-15 { padding-left:600px; }
+.prepend-16 { padding-left:640px; }
+.prepend-17 { padding-left:680px; }
+.prepend-18 { padding-left:720px; }
+.prepend-19 { padding-left:760px; }
+.prepend-20 { padding-left:800px; }
+.prepend-21 { padding-left:840px; }
+.prepend-22 { padding-left:880px; }
+.prepend-23 { padding-left:920px; }
+
+/** =grid for form inputs
+************************************************************
+@note column width minus left and right padding and borders
+************************************************************/
+input.col-1,  textarea.col-1  { width:24px; }
+input.col-2,  textarea.col-2  { width:64px; }
+input.col-3,  textarea.col-3  { width:104px;}
+input.col-4,  textarea.col-4  { width:144px; }
+input.col-5,  textarea.col-5  { width:184px; }
+input.col-6,  textarea.col-6  { width:224px; }
+input.col-7,  textarea.col-7  { width:264px; }
+input.col-8,  textarea.col-8  { width:304px; }
+input.col-9,  textarea.col-9  { width:344px; }
+input.col-10, textarea.col-10 { width:384px; }
+input.col-11, textarea.col-11 { width:424px; }
+input.col-12, textarea.col-12 { width:464px; }
+input.col-13, textarea.col-13 { width:504px; }
+input.col-14, textarea.col-14 { width:544px; }
+input.col-15, textarea.col-15 { width:584px; }
+input.col-16, textarea.col-16 { width:624px; }
+input.col-17, textarea.col-17 { width:664px; }
+input.col-18, textarea.col-18 { width:704px; }
+input.col-19, textarea.col-19 { width:744px; }
+input.col-20, textarea.col-20 { width:784px; }
+input.col-21, textarea.col-21 { width:824px; }
+input.col-22, textarea.col-22 { width:864px; }
+input.col-23, textarea.col-23 { width:904px; }
+input.col-24, textarea.col-24 { width:944px; margin:0; }
+input.col-1, input.col-2, input.col-3, input.col-4, input.col-5, input.col-6, input.col-7, input.col-8, input.col-9, input.col-10, input.col-11, input.col-12, input.col-13, input.col-14, input.col-15, input.col-16, input.col-17, input.col-18, input.col-19, input.col-20, input.col-21, input.col-22, input.col-23, input.col-24,
+textarea.col-1, textarea.col-2, textarea.col-3, textarea.col-4, textarea.col-5, textarea.col-6, textarea.col-7, textarea.col-8, textarea.col-9, textarea.col-10, textarea.col-11, textarea.col-12, textarea.col-13, textarea.col-14, textarea.col-15, textarea.col-16, textarea.col-17, textarea.col-18, textarea.col-19, textarea.col-20, textarea.col-21, textarea.col-22, textarea.col-23, textarea.col-24,
+select.col-1, select.col-2, select.col-3, select.col-4, select.col-5, select.col-6, select.col-7, select.col-8, select.col-9, select.col-10, select.col-11, select.col-12, select.col-13, select.col-14, select.col-15, select.col-16, select.col-17, select.col-18, select.col-19, select.col-20, select.col-21, select.col-22, select.col-23, select.col-24 { margin-right:0; }
